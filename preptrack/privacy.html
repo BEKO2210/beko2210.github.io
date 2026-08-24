@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PrepTrack — Privacy Policy</title>
+<style>
+  :root{
+    --bg:#0b110e; --surface:#141f19; --line:#26382d;
+    --text:#e7ede8; --muted:#9ca3af; --accent:#d1bf84;
+    color-scheme:dark;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f9fafb; --surface:#fff; --line:#e5e7eb; --text:#111827; --muted:#4b5563; --accent:#6e6330; color-scheme:light }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;
+       padding:2.5rem 1.25rem 4rem}
+  main{max-width:44rem;margin:0 auto}
+  .eyebrow{font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:600}
+  h1{font-size:clamp(1.9rem,6vw,2.6rem);line-height:1.15;margin:.4rem 0 .3rem}
+  h2{font-size:1.15rem;margin:2.4rem 0 .6rem;padding-bottom:.4rem;border-bottom:1px solid var(--line)}
+  h3{font-size:1rem;margin:1.5rem 0 .3rem}
+  p,li{color:var(--muted)}
+  strong{color:var(--text)}
+  .lead{font-size:1.05rem}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.25rem;margin:1.2rem 0}
+  .card p:last-child,.card ul:last-child{margin-bottom:0}
+  ul{padding-left:1.15rem}
+  li{margin:.35rem 0}
+  a{color:var(--accent)}
+  table{width:100%;border-collapse:collapse;margin:.8rem 0;font-size:.94rem;display:block;overflow-x:auto}
+  th,td{text-align:left;padding:.6rem .7rem;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--text);font-weight:600;white-space:nowrap}
+  footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--line);font-size:.85rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">PrepTrack for Android</p>
+  <h1>Privacy Policy</h1>
+  <p class="lead"><strong>PrepTrack keeps your inventory on your device.</strong> There is no user account, no cloud sync and no analytics. Nothing you enter is sent to us — we operate no server that could receive it.</p>
+
+  <div class="card">
+    <p><strong>In short:</strong> your products, quantities, expiry dates, storage locations and notes are stored only in the app's local database on your phone. Uninstalling the app deletes them.</p>
+  </div>
+
+  <h2>1. Who is responsible</h2>
+  <p>
+    Belkis Aslani<br>
+    Vogelsangstraße 32, 71691 Freiberg am Neckar, Germany<br>
+    Email: <a href="mailto:nullmesh@protonmail.com">nullmesh@protonmail.com</a>
+  </p>
+  <p>PrepTrack is a private, non-commercial project. This policy covers the PrepTrack Android app (package <code>io.github.beko2210.preptrack</code>).</p>
+
+  <h2>2. What the app stores on your device</h2>
+  <p>Everything you enter stays in a local database on your phone:</p>
+  <ul>
+    <li>Product names, barcodes, categories, storage locations</li>
+    <li>Quantities, units, minimum stock levels, calories per unit</li>
+    <li>Expiry dates and notes</li>
+    <li>Your settings: language, light or dark appearance, your storage locations, and household size and target days for the crisis-readiness estimate</li>
+  </ul>
+  <p>This data is never transmitted to us or to any third party. It is not backed up to any service by the app itself. Note that Android's own backup features, if you have them enabled, may include app data — that is handled by Google under Google's terms, not by us.</p>
+
+  <h2>3. When the app uses the internet</h2>
+  <p>The app works fully offline. It contacts the internet in exactly two situations:</p>
+
+  <h3>Barcode lookup (Open Food Facts)</h3>
+  <p>If you scan a barcode, the app sends <strong>only that barcode number</strong> to the free product database Open Food Facts to retrieve a product name, so you do not have to type it. No other data from your inventory is sent, and the request contains no identifier of you or your device beyond what any web request necessarily reveals (such as your IP address, which Open Food Facts receives as the recipient of the request).</p>
+  <ul>
+    <li>Recipient: Open Food Facts, a non-profit project — <a href="https://world.openfoodfacts.org/privacy" rel="noopener">their privacy policy</a></li>
+    <li>Purpose and legal basis: fulfilling the function you requested, Art. 6(1)(b) GDPR</li>
+    <li>You can avoid this entirely by entering products manually instead of scanning.</li>
+  </ul>
+
+  <h3>Purchase of "PrepTrack Unlimited"</h3>
+  <p>The app is free for up to five active products. Unlocking unlimited products is a one-time purchase handled entirely by <strong>Google Play Billing</strong>. Your payment details are processed by Google and never reach the app or us; the app only learns whether a valid purchase exists for your Google account.</p>
+  <ul>
+    <li>Recipient: Google Ireland Limited — <a href="https://policies.google.com/privacy" rel="noopener">Google's privacy policy</a></li>
+    <li>Purpose and legal basis: performance of the purchase contract, Art. 6(1)(b) GDPR</li>
+  </ul>
+
+  <h2>4. Permissions and why they are needed</h2>
+  <table>
+    <tr><th>Permission</th><th>Why</th></tr>
+    <tr><td>Camera</td><td>Only to scan product barcodes. The camera image is processed on your device and is never stored or transmitted. You can decline this permission and still use the whole app by entering products manually.</td></tr>
+    <tr><td>Internet</td><td>For the two cases in section 3 — barcode lookup and the Google Play purchase.</td></tr>
+  </table>
+  <p>The app asks for no other permissions. It does not access your location, contacts, microphone, photos or files.</p>
+
+  <h2>5. What the app does not do</h2>
+  <ul>
+    <li>No user account, no registration, no login</li>
+    <li>No analytics, tracking, profiling or advertising</li>
+    <li>No advertising identifiers, no third-party SDKs for measurement</li>
+    <li>No sale or sharing of personal data — there is none to share</li>
+  </ul>
+
+  <h2>6. Children</h2>
+  <p>PrepTrack is not directed at children and collects no data from anyone, regardless of age.</p>
+
+  <h2>7. Your rights</h2>
+  <p>Because we hold no personal data about you, there is nothing for us to disclose, correct or delete. You remain in full control of the data on your device: you can edit or delete any entry in the app, and uninstalling the app removes the database completely.</p>
+  <p>Under the GDPR you have the rights of access, rectification, erasure, restriction, data portability and objection (Art. 15–21 GDPR), and the right to lodge a complaint with a supervisory authority. For matters concerning Google Play or Open Food Facts, please contact those providers directly.</p>
+
+  <h2>8. Changes</h2>
+  <p>If the app's data handling changes, this page is updated before the change ships. The date below shows the current version.</p>
+
+  <h2>9. Contact</h2>
+  <p>Questions about privacy in PrepTrack: <a href="mailto:nullmesh@protonmail.com">nullmesh@protonmail.com</a></p>
+
+  <footer>
+    <p>Last updated: 24 August 2026 · PrepTrack 3.0.0 · <a href="/">beko2210.github.io</a></p>
+  </footer>
+</main>
+</body>
+</html>
