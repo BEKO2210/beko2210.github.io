@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.beko2210.preptrack",
+      "sha256_cert_fingerprints": [
+        "FB:14:63:22:D8:85:F9:B8:B3:19:1D:42:4A:6E:BB:1C:0D:38:D2:88:5F:98:D7:08:25:E6:60:FC:CE:92:6D:03"
+      ]
+    }
+  }
+]
