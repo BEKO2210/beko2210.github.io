@@ -35,3 +35,9 @@ img,svg{max-width:100%;height:auto}html{scroll-behavior:smooth}body{margin:0;bac
   .rose-readout{right:2%;width:88px}
 }
 @media (prefers-reduced-motion:reduce){.rose .rose-needle{transition:none}}
+
+
+/* Touch targets: a footer link is a link people actually aim at on a phone. */
+.foot-links a{display:inline-flex;align-items:center;min-height:44px;padding:0 .25rem}
+.foot-links{gap:.5rem 1.25rem}
+.nav a,.nav .availability{display:inline-flex;align-items:center;min-height:44px}
